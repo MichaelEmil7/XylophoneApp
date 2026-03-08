@@ -1,27 +1,71 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+#  Xylophone App (Flutter)
+
+A simple musical instrument app built with Flutter that allows users to play musical notes by tapping colorful xylophone bars.
+
+##  Overview
+The **Xylophone App** is a beginner Flutter project that demonstrates how to build a simple interactive UI and play sounds inside a Flutter application.
+
+Each colored bar represents a musical note. When the user taps a bar, the corresponding sound is played.
+
+##  Features
+-  Simple and colorful xylophone interface
+-  Plays different musical notes
+-  Fast and responsive UI
+-  Compatible with Android and iOS
+
+##  Built With
+- Flutter
+- Dart
+- audioplayers package
+
+##  Project Structure
+```
+lib/
+  main.dart
+
+assets/
+  note1.wav
+  note2.wav
+  note3.wav
+  note4.wav
+  note5.wav
+  note6.wav
+  note7.wav
+```
+
+##  Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/MichaelEmil7/XylophoneApp.git
+```
+
+### 2. Go to the project folder
+```bash
+cd XylophoneApp
+```
+
+### 3. Install dependencies
+```bash
+flutter pub get
+```
+
+### 4. Run the application
+```bash
+flutter run
+```
+
+##  What I Learned
+Through this project I practiced:
+- Creating reusable widgets in Flutter
+- Handling button taps and user interaction
+- Playing audio files in Flutter
+- Building simple interactive applications
 
 
-# Xylophone 🎹
+##  Author
+Michael Emil  
+GitHub: https://github.com/MichaelEmil7
 
-## Our Goal
-
-In this tutorial we will be diving into more Dart programming concepts and learning how to use open source Flutter packages. By the end of this module, you should be comfortable using Flutter packages and building repeated widgets.
-
-
-## What you will create
-
-We’re going to make a music app that plays Xylophone sounds. For every Beethoven out there, this will let you unleash your musical talent where ever you are. 
-
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/xylophone-flutter.png)
-
-## What you will learn
-
-- How to incorporate open source libraries of code into your project using Flutter Packages.
-- How to play sound on both iOS and Android.
-- How to generate repeated user interface Widgets.
-- How to use Dart functions that can take input arguments as well as return an output.
-- Dart arrow syntax for writing one line functions.
-
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+##  License
+This project is open source and available under the MIT License.
